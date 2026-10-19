@@ -1,0 +1,5 @@
+:root { --red: #b3261e; --snow: #fafafa; --ink: #1d1d1f; }
+body { margin: 0; font-family: Georgia, serif; color: var(--ink); background: var(--snow); }
+.hero { background: var(--red); color: var(--snow); padding: 4rem 1rem; text-align: center; }
+section { max-width: 40rem; margin: 2rem auto; padding: 0 1rem; }
+.button { display: inline-block; background: var(--snow); color: var(--red); padding: .75rem 1.5rem; border-radius: 4px; text-decoration: none; }
